@@ -12,6 +12,6 @@ public class Serverbase implements ModInitializer {
         // However, some things (like resources) may still be uninitialized.
         // Proceed with mild caution.
 
-        System.out.println("Registering LawaxiServerBase");
+        System.out.println("注册 LawaxiServerBase");
     }
 }

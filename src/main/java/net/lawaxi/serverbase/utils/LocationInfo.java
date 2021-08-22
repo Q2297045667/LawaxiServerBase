@@ -57,7 +57,7 @@ public class LocationInfo {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else throw new BrokenPositionException("File does not exist");
+        } else throw new BrokenPositionException("文件不存在");
     }
 
     public double getX() {
