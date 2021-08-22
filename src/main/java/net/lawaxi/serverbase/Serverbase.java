@@ -8,10 +8,9 @@ public class Serverbase implements ModInitializer {
     @Override
     public void onInitialize() {
 
-        // This code runs as soon as Minecraft is in a mod-load-ready state.
-        // However, some things (like resources) may still be uninitialized.
-        // Proceed with mild caution.
+        // 只要 Minecraft 处于mod-load-ready 该代码就会运行
+        // 但是 有些东西（如资源）可能仍然未初始化
 
-        System.out.println("Registering LawaxiServerBase");
+        System.out.println("注册 LawaxiServerBase");
     }
 }
